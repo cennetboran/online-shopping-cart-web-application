@@ -1,0 +1,56 @@
+{
+  "name": "tirtil2",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.13.0",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.5.0",
+    "@testing-library/user-event": "^7.2.1",
+    "@trendmicro/react-sidenav": "^0.5.0",
+    "axios": "^0.19.2",
+    "bcrypt": "^4.0.1",
+    "concurrently": "^5.1.0",
+    "get-google-fonts": "^1.2.2",
+    "lodash": "^4.17.15",
+    "lowdb": "^1.0.0",
+    "mdbreact": "^4.25.5",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-file-viewer": "^0.5.0",
+    "react-multi-carousel": "^2.5.3",
+    "react-scripts": "3.4.1",
+    "react-slick": "^0.25.2",
+    "react-star-ratings": "^2.3.0",
+    "react-uuid": "^1.0.2",
+    "slick-carousel": "^1.8.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  },
+  "scripts": {
+    "backend-install": "npm install --prefix backend",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "backend": "npm run server --prefix backend",
+    "dev": "concurrently \"npm run backend\" \"npm run start\""
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "proxy": "http://localhost:5000"
+}

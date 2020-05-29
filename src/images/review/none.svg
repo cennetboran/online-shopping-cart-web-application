@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="506px" height="506px" viewBox="0 0 506 506" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <linearGradient x1="0.0608899165%" y1="0%" x2="100%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#FFFFFF" stop-opacity="0.2" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+        <polygon id="path-2" points="0 476 476 476 487 492 11 492"></polygon>
+        <filter x="-3.3%" y="-87.5%" width="106.6%" height="300.0%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.253764719 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <polygon id="path-4" points="476 0 487 16 487 492 476 476"></polygon>
+        <filter x="-45.5%" y="-1.0%" width="227.3%" height="102.8%" filterUnits="objectBoundingBox" id="filter-5">
+            <feOffset dx="2" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.226222826 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Styles-&amp;-Tile-Preview-Assets" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Tile-&amp;-Filter-Assets" transform="translate(-1065.000000, -321.000000)">
+            <g id="Group-2" transform="translate(1074.000000, 322.000000)">
+                <g id="Framless-Tile">
+                    <g id="top">
+                        <polygon id="light" fill="url(#linearGradient-1)" points="0 0 476 0 476 476 0 476"></polygon>
+                        <g id="bottom-side">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
+                            <use fill="#262626" fill-rule="evenodd" xlink:href="#path-2"></use>
+                        </g>
+                        <g id="right-side">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-5)" xlink:href="#path-4"></use>
+                            <use fill="#4D4D4D" fill-rule="evenodd" xlink:href="#path-4"></use>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

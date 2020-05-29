@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg version="1.1" viewBox="0 0 506 506" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <linearGradient id="d" x1=".06089%" y2="100%">
+            <stop stop-color="#fff" stop-opacity=".2" offset="0"/>
+            <stop stop-color="#fff" stop-opacity="0" offset="1"/>
+        </linearGradient>
+        <polygon id="c" points="0 0 476 0 476 476 0 476"/>
+        <filter id="g" x="-1.5%" y="-1.3%" width="103.8%" height="103.8%">
+            <feOffset dx="2" dy="3" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feMorphology in="SourceAlpha" radius="17" result="shadowInner"/>
+            <feOffset dx="2" dy="3" in="shadowInner" result="shadowInner"/>
+            <feComposite in="shadowOffsetOuter1" in2="shadowInner" operator="out" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="2.5"/>
+            <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.4 0"/>
+        </filter>
+        <polygon id="b" points="0 476 476 476 487 492 11 492"/>
+        <filter id="f" x="-3.3%" y="-87.5%" width="106.6%" height="300%">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="5"/>
+            <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.253764719 0"/>
+        </filter>
+        <polygon id="a" points="476 0 487 16 487 492 476 476"/>
+        <filter id="e" x="-45.5%" y="-1%" width="227.3%" height="102.8%">
+            <feOffset dx="2" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="2"/>
+            <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.226222826 0"/>
+        </filter>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g transform="translate(-538 -320)">
+            <g transform="translate(547 322)">
+                <polygon points="0 0 476 0 476 476 0 476" fill="url(#d)"/>
+                <use fill="black" filter="url(#g)" xlink:href="#c"/>
+                <path d="m8.5 8.5v459h459v-459h-459z" stroke="#fff" stroke-linejoin="square" stroke-width="17"/>
+                <use fill="black" filter="url(#f)" xlink:href="#b"/>
+                <use fill="#858585" fill-rule="evenodd" xlink:href="#b"/>
+                <use fill="black" filter="url(#e)" xlink:href="#a"/>
+                <use fill="#D0D0D0" fill-rule="evenodd" xlink:href="#a"/>
+            </g>
+        </g>
+    </g>
+</svg>
